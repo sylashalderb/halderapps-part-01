@@ -1,0 +1,25 @@
+https://dvc.org/doc/install
+
+
+https://fanatical-noise-9ab.notion.site/DVC-tracking-pipeline-and-experiments-3868766195ff4f198c895e0ffc729fc7
+
+
+
+step 1: go to path 
+cd C:\Users\vfs\Desktop\HalderApss-Part-01\halderapps-part-01
+
+step 2: 
+# Create a virtual environment named myenv
+python -m venv myenv
+
+# Activate the virtual environment
+myenv\Scripts\activate   # For Windows
+source myenv/bin/activate   # For Unix/Mac
+
+step 3: pip install dvc
+
+step 4: dvc init
+
+step 5: 
+dvc add data/
+
